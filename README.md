@@ -25,18 +25,7 @@ You will write  write a function titled, celsiusToFahrenheit() that...
 **Examples:**
 inputs => output/s
 --------------------------------
-* divisibilty:
-  * 10 2 => "divides evenly"
-  * 7 2 => "doesn't divide evenly"
-  * 20 0 => "error"
-  * "five" / "two" => "error"
-* fahrenheitToCelsius:
-  * "ten" => -9999
-  * 212 => 100.0
-  * 32 => 0.0
-  * 5 => -15.0
-* celsiusToFahrenheit:
-  * "twenty" => -9999
-  * 0 => 32.0
-  * 100 => 212.0
-  * 55 => 131.0
+* "twenty" => -9999
+* 0 => 32.0
+* 100 => 212.0
+* 55 => 131.0
