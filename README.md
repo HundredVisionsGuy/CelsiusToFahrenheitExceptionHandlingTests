@@ -1,20 +1,17 @@
-# MathFunctions.py
-A Python 1 Exception Handling UnitTest Challenge
+# CelsiusToFahrenheitExceptionHandlingTests
+A Python Exception Handling UnitTest Challenge
 
 **Goal:**
 ----------
-You will write 1 or more math functions that are designed to not only solve some math problems but also handle incorrect inputs (ZeroDivisionErrors, TypeErrors, ValueErrors)
+You will write  write a function titled, celsiusToFahrenheit() that...
+* receives a number (celsius) - could be a string, float, or int
+* calculates fahrenheit
+* throws a ValueError if input cannot be converted to a number
+*     If so, it will return -9999
+* returns a floating point number (fahrenheit)
 
 **Inputs:**
 ----------
-* `divisibilty()` receives 2 inputs: (numerator & denominator) and returns one of the following outputs:
- * "divides evenly" - if the numbers divide evenly (like `4 / 2`))
- * "doesn't divide evenly" - if the numerator is not evenly divisible by the denominator (like `5 / 2`)
- * "error" - if the inputs cannot be converted to integers (or floats) OR the denominator is `0` (since you cannot divide by 0)
- * **NOTE**: divisibility() should be able to accept strings provided they can be converted to a number (e.g. `divisibility('10', '3')`)
-* `fahrenheitToCelsius()` receives 1 input: an integer, float, or string (fahrenheit)
-* `fahrenheitToCelsius()` will try to convert the input to a float and *if it is unable to convert a string to a float, it will return -9999 to indicate there was an error*
-* `fahrenheitToCelsius()` calculates area using the following formula: `area * 0.000207`
 * `celsiusToFahrenheit()` receives 1 input: an integer, float, or string (celsius)
 * `celsiusToFahrenheit()` will try to convert the input to a float and *if it is unable to convert a string to a float, it will return -9999 to indicate there was an error*
 * `celsiusToFahrenheit()` calculates area using the following formula: `area * 247.10538`
