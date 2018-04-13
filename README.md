@@ -7,7 +7,7 @@ You will write  write a function titled, celsiusToFahrenheit() that...
 * receives a number (celsius) - could be a string, float, or int
 * calculates fahrenheit
 * throws a ValueError if input cannot be converted to a number
-*     If so, it will return -9999
+  * If so, it will return -9999
 * returns a floating point number (fahrenheit)
 
 **Inputs:**
@@ -18,9 +18,9 @@ You will write  write a function titled, celsiusToFahrenheit() that...
 
 **Notes/Challenge Opportunity**
 -------------
-* Each function needs to check to make sure the inputs can be converted to a number
-* Each function needs to handle incorrect input (e.g. strings that can't be converted to numbers, a denominator that is 0)
-* Each function will need to incorporate Exception Handling in addition to performing the expected function
+* Your function needs to check to make sure the inputs can be converted to a number
+* Your function needs to handle incorrect input (e.g. strings that can't be converted to numbers)
+* Your function will need to incorporate Exception Handling in addition to performing the expected function
 
 **Examples:**
 inputs => output/s
