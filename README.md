@@ -6,7 +6,7 @@ A Python Exception Handling UnitTest Challenge
 You will write  write a function titled, celsiusToFahrenheit() that...
 * receives a number (celsius) - could be a string, float, or int
 * calculates fahrenheit
-* throws a ValueError if input cannot be converted to a number
+* catches a ValueError if input cannot be converted to a number
   * If so, it will return -9999
 * returns a floating point number (fahrenheit)
 
