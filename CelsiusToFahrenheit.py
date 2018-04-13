@@ -9,7 +9,6 @@
 #           If so, it will return -9999
 #
 
-
 # You will want to test the function by running this document
 # WARNING: you must NOT change the function name, or you will fail the tests
 # NOTE: you are welcome to choose the variable names for your parameters
